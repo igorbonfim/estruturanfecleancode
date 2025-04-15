@@ -41,7 +41,7 @@ end;
 
 class function TControllerNotaFiscalImportarPedido.New(Parent: iNotaFiscal; NumeroPedido : Integer): iCommand;
 begin
-  Result := Self.Create(Parent, NumeroPedido)
+  Result := Self.Create(Parent, NumeroPedido);
 end;
 
 end.
